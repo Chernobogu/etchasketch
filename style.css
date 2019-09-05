@@ -1,0 +1,38 @@
+#container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.block {
+    display: block;
+    background-color: rgb(158, 244, 255); 
+}
+
+.block:hover {
+    display: block;
+    background-color: rgb(237, 255, 158); 
+}
+
+.blockDrawn{
+    display: block;
+    background-color: black; 
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+button {
+    font-size: 16pt;
+    margin: 20px 5px 20px 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+}
+
+button:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
